@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1" style="@style/Main">
+<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="fill_parent">
+    <TextView android:id="@+id/display" style="@style/TextView" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/moneyLabel" android:layout_weight="0.24"></TextView>
+    <EditText android:layout_height="wrap_content" style="@style/EditText" android:id="@+id/inputEditText" android:layout_weight="1" android:layout_width="wrap_content" android:inputType="number">
+        <requestFocus></requestFocus>
+    </EditText>
+</LinearLayout> 
+<Button android:id="@+id/sendButton" android:text="@string/send" style="@style/Button" android:layout_height="wrap_content" android:layout_width="fill_parent"></Button>
+</LinearLayout>

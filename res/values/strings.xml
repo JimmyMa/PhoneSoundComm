@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, EWalletActivity!</string>
+    <string name="app_name">EWallet</string>
+    <string name="moneyLabel">金额</string>
+    <string name="send">收     款</string>
+    <string name="confirm">确  认  付  款</string>
+    <string name="cancelPay">取  消  付  款</string>
+</resources>

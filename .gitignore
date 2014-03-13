@@ -1,0 +1,12 @@
+logs
+target
+tmp
+bin
+.history
+dist
+.svn
+/.idea
+/*.iml
+/out
+/.idea_modules
+/RUNNING_PID

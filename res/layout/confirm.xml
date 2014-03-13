@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1" style="@style/Main">
+<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="horizontal">
+    <TextView android:id="@+id/display"  style="@style/TextView" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:textSize="30dp" android:typeface="serif" android:layout_width="wrap_content" android:text="@string/moneyLabel" android:layout_weight="0.09"></TextView>
+	
+	<RelativeLayout android:id="@+id/RelativeLayoutl" android:layout_height="199dp" android:layout_width="248dp">
+		<TextView android:layout_width="wrap_content"  style="@style/TextView" android:layout_height="fill_parent" android:textStyle="bold" android:id="@+id/DataLabel" android:layout_centerVertical="true" android:layout_alignParentRight="true" android:layout_marginTop="5dp" android:textSize="40dp" android:typeface="serif"></TextView>
+	</RelativeLayout>
+</LinearLayout> 
+<Button android:layout_height="wrap_content" style="@style/Button" android:layout_width="fill_parent" android:text="@string/confirm" android:id="@+id/confirmBtn"></Button>
+<Button android:layout_height="wrap_content" style="@style/Button" android:layout_width="fill_parent" android:text="@string/cancelPay" android:id="@+id/demodulateBtn"></Button>
+</LinearLayout>
